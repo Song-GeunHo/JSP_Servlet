@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<style>
+@import url('https://webfontworld.github.io/sunn/SUIT.css');
+
+body {
+	width: 100vw;
+	color: white;
+	background-color: #131921;
+	font-family: 'SUIT', sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+table {
+	width: 500px;
+	height: 200px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 2px solid white;
+}
+
+td {
+	padding: 10px;
+	border: 1px solid white;
+	text-align: center;
+}
+
+input, select {
+	width: 100%;
+	height: 60%;
+	padding-left: 10px;
+}
+
+button {
+	width: 100%;
+	height: 100%;
+}
+</style>
+</head>
+
+<body>
+	<h1>While Example</h1>
+	<form method="post" action="while.jsp">
+		<table>
+			<tr>
+				<td>반복하고 싶은 문구</td>
+				<td>
+					<input type="text" name="phrases">
+				</td>
+			</tr>
+			<tr>
+				<td>반복하고 싶은 횟수</td>
+				<td>
+					<input type="text" name="count">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<button type="submit">보내기</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

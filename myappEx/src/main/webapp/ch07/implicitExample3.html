@@ -1,0 +1,61 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<style>
+@import url('https://webfontworld.github.io/sunn/SUIT.css');
+
+body {
+	margin: 0;
+	padding: 10px;
+	width: 100vw;
+	color: white;
+	background-color: #131921;
+	font-family: 'SUIT', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	box-sizing: border-box;
+}
+
+table {
+	width: 400px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+input {
+	width: 100%;
+	height: 100%;
+	padding-left: 10px;
+}
+
+button {
+	width: 100%;
+}
+
+td {
+	padding: 10px;
+}
+</style>
+</head>
+
+<body>
+	<h2>메모장</h2>
+	<form method=post action="implicitExample3.jsp">
+		<table>
+			<tr>
+				<td>성명</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>메모</td>
+				<td><input type="text" name="memo" size="40"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button type="submit">보내기</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<style>
+@import url('https://webfontworld.github.io/sunn/SUIT.css');
+
+body {
+	width: 100vw;
+	color: white;
+	background-color: #131921;
+	font-family: 'SUIT', sans-serif;
+	text-align: center;
+	font-size: 70px;
+}
+table {
+	width: 500px;
+	height: 200px;
+	margin: 0 auto;
+}
+input, select {
+	width: 100%;
+	height: 100%;
+	padding-left: 10px;
+}
+button {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+td {
+	padding: 10px;
+}
+</style>
+</head>
+
+<body>
+	<FORM METHOD=POST ACTION="homePage.jsp">
+		<table>
+			<tr>
+				<td>사용언어(Language)</td>
+				<td>
+					<select name="language">
+						<option value="kor">한국어</option>
+						<option value="eng">English</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>이름(Name)</td>
+				<td><INPUT TYPE="text" NAME="name"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button TYPE="submit">확인(OK)</button></td>
+			</tr>
+		</table>		
+	</FORM>
+</body>
+
+</html>

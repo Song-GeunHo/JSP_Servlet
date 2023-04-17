@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<style>
+@import url('https://webfontworld.github.io/sunn/SUIT.css');
+
+body {
+	width: 100vw;
+	color: white;
+	background-color: #131921;
+	font-family: 'SUIT', sans-serif;
+	text-align: center;
+	font-size: 70px;
+}
+table {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+caption {
+	margin: 20px 0;
+}
+input {
+	height: 100%;
+	padding-left: 10px;
+}
+button {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+td {
+	padding: 10px;
+}
+</style>
+</head>
+
+<body>
+	<h1>Forward Tag Example2</h1>
+	<hr>
+	<FORM METHOD=POST ACTION="forwardTag2_1.jsp">
+		<table>
+			<caption><h2>혈액형별 성격 테스트</h2></caption>
+			<tr>
+				<td style="text-align: center;"><label>이름 입력<input type="text" name="name"></label>
+			</tr>
+			<caption><h4>당신의 혈액형은?</h4></caption>
+			<tr>
+				<td><label><input type="radio" name="bloodType" value="A"> A형</label></td>
+			</tr>
+			<tr>
+				<td><label><input type="radio" name="bloodType" value="B"> B형</label></td>
+			</tr>
+			<tr>
+				<td><label><input type="radio" name="bloodType" value="O"> O형</label></td>
+			</tr>
+			<tr>
+				<td><label><input type="radio" name="bloodType" value="AB"> AB형</label></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button TYPE="submit">보내기</button></td>
+			</tr>
+		</table>		
+	</FORM>
+</body>
+
+</html>
